@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/dashboard.css" rel="Stylesheet">
+    
+    <style>
+        h1{
+            text-align: center;
+            background-color: blue;
+            
+        }
+        div{
+            text-align: left;
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+  
+    <header>
+    <h1>Simple Interest Calculator</h1>
+</header>
+
+<label>Principle, p</label>
+<input type="text" id="amount" placeholder="enter the amount">
+<br><br>
+<label>Annual Rate, AR</label>
+<input type="text" id="A" placeholder="Rate of Interest"> <span>%</span>
+<br><br>
+<label>Time, t</label>
+<input type="text" id="year" placeholder="year"> <span>years</span> <span>+</span> 
+<input type="text" id="month" placeholder="months"> <span>months</span> <span>+</span> 
+<input type="text" id="Days" placeholder="days"> <span>days</span> 
+<br><br>
+<label>Days in months</label> 
+<select name="text">
+    <option>12months</option>
+    <option>11months</option>
+    <option>10months</option>
+    <option>09months</option>
+    <option>8months</option>
+    <option>07months</option>
+    <option>06months</option>
+    <option>05months</option>
+    <option>04months</option>
+    <option>03months</option>
+    <option>02months</option>
+
+    </select>
+    <br><br>
+   </div><input type="button" onclick="Calculate()" value="Calculate Interest"></div>
+
+    <br><br>
+    <div>
+    <label>Interest, I</label>
+    <input type="text" id="Result">
+    </div>
+</div>
+
+</body>
+<script src="js/dashboradSIcalculator.js" type="text/javascript"></script>
+</html>
